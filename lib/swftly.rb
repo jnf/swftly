@@ -1,11 +1,12 @@
 class Swftly
   require 'curb'
-  attr_reader :auto_process, :swf, :runtime, :markup, :raw,
+  attr_accessor :swf, :auto_process
+  attr_reader :runtime, :markup, :raw,
               :converter_response_code, :fetcher_response_code
 
   #init w/ a swf, through false for the second param if you don't wanna
   #immediately trigger post-conversion processing
-  def initialize( swf, auto_process = true )
+  def initialize( swf = '', auto_process = true )
     @swf = swf
     @auto_process = auto_process
   end
