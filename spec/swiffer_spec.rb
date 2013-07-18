@@ -1,5 +1,5 @@
 require 'spec_helper'
 
-describe Swiffer do
+describe Swftly do
   pending "omg wat do"
 end

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Swiffer (0.0.01pre)
+    swftly (0.0.01pre)
 
 GEM
   remote: http://rubygems.org/
@@ -21,6 +21,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Swiffer!
   curb (~> 0.8.4)
   rspec
+  swftly!
