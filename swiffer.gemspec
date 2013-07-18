@@ -2,7 +2,7 @@
 Gem::Specification.new do |spec|
   spec.name           = 'Swiffer'
   spec.version        = '0.0.01pre'
-  spec.summary        = "Swiffer abstracts and automates interaction's with Swiffy, Google's hosted swf converter."
+  spec.summary        = "Swiffer abstracts and automates interactions with Swiffy, Google's hosted swf converter."
   spec.description    = "The summary summarizes sumarily."
   spec.platform       = Gem::Platform::CURRENT
   spec.require_path   = '.'
