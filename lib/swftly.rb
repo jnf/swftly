@@ -1,21 +1,21 @@
 class Swftly
   require 'curb'
-  attr_accessor :swf, :auto_process
+  attr_accessor :swf_path, :auto_process
   attr_reader :runtime, :markup, :raw,
               :converter_response_code, :fetcher_response_code
 
   #init w/ a swf, through false for the second param if you don't wanna
   #immediately trigger post-conversion processing
-  def initialize( swf = '', auto_process = true )
-    @swf = swf
+  def initialize( swf_path = '', auto_process = true )
+    @swf_path = swf_path
     @auto_process = auto_process
   end
 
   # post the swf to swiffy and parse/process the results
   def swiff
-    return nil unless @swf.instance_of? String
+    return nil unless @swf_path.instance_of? String
 
-    file = Curl::PostField.file 'swfFile', @swf
+    file = Curl::PostField.file 'swfFile', @swf_path
     converter = Curl::Easy.http_post("https://www.google.com/doubleclick/studio/swiffy/upload", file) do |curl|
       curl.multipart_form_post = true
       curl.headers["User-Agent"] = "Curl/Ruby"
