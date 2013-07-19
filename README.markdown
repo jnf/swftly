@@ -44,8 +44,11 @@ swftly = Swftly.new(the_swf, false) #don't auto process
 swftly.swiff #send the_swf off to Google's hosted service for conversion
 
 if swftly.converter_response_code == 200 #success!
-  swftly.process! #buildout the Runtime and SwiffyObject stuffs
+  swftly.process! #buildout the Runtime and Converted stuffs
+  ...
+  #do some persistence or rendering or whatevs
 else
+  ...
   #do something fancy here like raise a warning or requeue
 end
 
