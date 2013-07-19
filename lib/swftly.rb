@@ -30,8 +30,10 @@ class Swftly
   # perform and process the second fetching
   def process
     return failed unless @converter_response_code == 200
+    
     cooked = @raw.split '","'
-    path = (cooked[3] + cooked[5]).gsub(/\/i\//,'/o/')
+    path = URI::extract(@raw).detect { |d| d.match /\/o\// }
+    path += @raw.split('","').detect { |d| d.match '.html' }
 
     fetcher = Curl.get(path)
 
