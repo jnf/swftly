@@ -1,7 +1,7 @@
 class Swftly
   require 'curb'
   attr_accessor :swf_path, :auto_process
-  attr_reader :runtime, :markup, :raw,
+  attr_reader :runtime, :markup, :raw, :converted,
               :converter_response_code, :fetcher_response_code
 
   #init w/ a swf, through false for the second param if you don't wanna
@@ -40,7 +40,9 @@ class Swftly
 
     @fetcher_response_code = fetcher.response_code
     @markup = fetcher.body_str
+
     @runtime = Runtime.new(@markup)
+    @converted = Converted.new(@markup)
   end
 
   protected
@@ -51,3 +53,4 @@ class Swftly
 end
 
 require 'swftly/runtime'
+require 'swftly/converted'

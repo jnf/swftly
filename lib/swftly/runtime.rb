@@ -1,10 +1,9 @@
-# f = '/Users/jeremy/test.swf'; x = Swftly.new f; x.swiff
 class Runtime
-  attr_accessor :result_page
+  attr_reader :markup
 
-  def initialize(result_page)
-    @result_page = result_page
-    @urls = URI::extract @result_page
+  def initialize(markup)
+    @markup = markup
+    @urls = URI::extract @markup
   end
 
   def version
