@@ -1,25 +1,18 @@
+# f = '/Users/jeremy/test.swf'; x = Swftly.new f; x.swiff
 class Runtime
   attr_accessor :result_page
 
   def initialize(result_page)
     @result_page = result_page
+    @urls = URI::extract @result_page
   end
 
   def version
-    raise "No result page set" unless have_page?
-
-    #we'll strip out runtime version here
+    url.split('/')[-2] #we'll strip out runtime version here
   end
 
   def url
-    raise "No result page set" unless have_page?
-
-    #get the full url to the google-hosted runtime to use with embedding
+    @urls.detect { |d| d.match /runtime\.js/} #typically the first js file in the set.
   end
 
-  private
-
-  def have_page?
-    @result_page.present? && @result_page.instance_of?(String)
-  end
 end
