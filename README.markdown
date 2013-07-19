@@ -7,8 +7,7 @@ Swftly is a tiny gem that abstracts interactions with Google's Swiffy service, w
 
 ## License
 
-Swftly is copyright (c)2013 Jeremy Flores, and released under the terms of the 
-MIT license. You know, so do whatevs. 
+Check the LICENSE file.
 
 ## Dependencies
 
