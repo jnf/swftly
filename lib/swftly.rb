@@ -13,6 +13,8 @@ class Swftly
 
   # post the swf to swiffy and parse/process the results
   def swiff
+    return nil unless @swf.instance_of? String
+
     file = Curl::PostField.file 'swfFile', @swf
     converter = Curl::Easy.http_post("https://www.google.com/doubleclick/studio/swiffy/upload", file) do |curl|
       curl.multipart_form_post = true
