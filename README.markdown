@@ -39,7 +39,7 @@ swftly.swiffyobject #=> "does stuff soon"
 
 #Without auto_processig
 the_swf = '/absolute/path/to/yourfile.swf'
-swftly = Swftly.new(the_swf, false) #dont' auto process
+swftly = Swftly.new(the_swf, false) #don't auto process
 swftly.swiff #send the_swf off to Google's hosted service for conversion
 
 if swftly.converter_response_code == 200 #success!
