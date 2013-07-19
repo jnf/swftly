@@ -26,11 +26,11 @@ class Swftly
     @converter_response_code = converter.response_code
     @raw = converter.body_str
 
-    process if @auto_process
+    process! if @auto_process
   end
 
   # perform and process the second fetching
-  def process
+  def process!
     return failed unless @converter_response_code == 200
 
     path = URI::extract(@raw).detect { |d| d.match /\/o\// }
