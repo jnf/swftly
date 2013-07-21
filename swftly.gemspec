@@ -1,4 +1,3 @@
-
 Gem::Specification.new do |spec|
   spec.name           = 'swftly'
   spec.version        = '0.0.1'
