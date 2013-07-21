@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name           = 'swftly'
-  spec.version        = '0.1.1'
+  spec.version        = '0.1.2'
   spec.summary        = "swftly abstracts and automates interactions with Swiffy, Google's hosted swf converter."
   spec.description    = "swftly abstracts and automates interactions with Swiffy, Google's hosted swf converter."
   spec.platform       = Gem::Platform::RUBY
