@@ -1,0 +1,149 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.google.com/doubleclick/studio/swiffy/upload
+    body:
+      encoding: US-ASCII
+      string: swfFile=%2FUsers%2Fjeremy%2Fprojects%2Fswftly%2Fspec%2Ffixtures%2Ffiles%2Ftest.swf
+    headers:
+      User-Agent:
+      - Curl/Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U3VuLCAyMSBKdWwgMjAxMyAxOTo1NToyNiBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        R29vZ2xlIEZyb250ZW5k
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ly9PS1s3OTcsMS4wNzMyNDIxODc1LDAuODUzNTE1NjI1LDcsNiwwLDUsNCwz
+        LDM2MywwLDIsMSxbIjUiLCJhYTY1YTEyYS03M2NlLTRhZDgtOTAyNy0wODNi
+        ZDdhMjM1YmEiLCIlMkZVc2VycyUyRmplcmVteSUyRnByb2plY3RzJTJGc3dm
+        dGx5JTJGc3BlYyUyRmZpeHR1cmVzJTJGZmlsZXMlMkZ0ZXN0LnN3ZiIsImh0
+        dHBzOi8vc3dpZmZ5cHJldmlld3MuZ29vZ2xldXNlcmNvbnRlbnQuY29tL3Zp
+        ZXcvaS9hYTY1YTEyYS03M2NlLTRhZDgtOTAyNy0wODNiZDdhMjM1YmEvIiwi
+        ZSIsIiUyRlVzZXJzJTJGamVyZW15JTJGcHJvamVjdHMlMkZzd2Z0bHklMkZz
+        cGVjJTJGZml4dHVyZXMlMkZmaWxlcyUyRnRlc3QuaHRtbCIsImh0dHBzOi8v
+        c3dpZmZ5cHJldmlld3MuZ29vZ2xldXNlcmNvbnRlbnQuY29tL3ZpZXcvby9h
+        YTY1YTEyYS03M2NlLTRhZDgtOTAyNy0wODNiZDdhMjM1YmEvIl0sMSw3XQ==
+    http_version: 
+  recorded_at: Sun, 21 Jul 2013 19:55:30 GMT
+- request:
+    method: get
+    uri: https://swiffypreviews.googleusercontent.com/view/o/aa65a12a-73ce-4ad8-9027-083bd7a235ba/%2FUsers%2Fjeremy%2Fprojects%2Fswftly%2Fspec%2Ffixtures%2Ffiles%2Ftest.html
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RXhwaXJlcw==":
+      - !binary |-
+        U3VuLCAyMSBKdWwgMjAxMyAyMDoxMDoyNiBHTVQ=
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHVibGljLCBtYXgtYWdlPTkwMA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U3VuLCAyMSBKdWwgMjAxMyAxOTo1NToyNiBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        R29vZ2xlIEZyb250ZW5k
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFkb2N0eXBlIGh0bWw+CjxodG1sPgogIDxoZWFkPgogICAgPG1ldGEgY2hh
+        cnNldD0idXRmLTgiPgogICAgPG1ldGEgaHR0cC1lcXVpdj0iWC1VQS1Db21w
+        YXRpYmxlIiBjb250ZW50PSJJRT1lZGdlIj4KICAgIDx0aXRsZT5Td2lmZnkg
+        b3V0cHV0PC90aXRsZT4KICAgIDxzY3JpcHQgc3JjPSJodHRwczovL3d3dy5n
+        c3RhdGljLmNvbS9zd2lmZnkvdjUuMi9ydW50aW1lLmpzIj48L3NjcmlwdD4K
+        CiAgICA8c2NyaXB0PgogICAgICBzd2lmZnlvYmplY3QgPSB7ImludGVybmVk
+        U3RyaW5ncyI6WyJQQUNLQUdFIl0sInRhZ3MiOlt7ImZyYW1lcyI6W10sInNj
+        ZW5lcyI6W3sibmFtZSI6IlNjZW5lIDEiLCJvZmZzZXQiOjB9XSwidHlwZSI6
+        MjN9LHsiY2xhc3NlcyI6W3sibnMiOjMsImNpbml0IjowLCJjdHJhaXRzIjpb
+        XSwibmFtZSI6MSwiaW5pdCI6MiwidHJhaXRzIjpbeyJuYW1lIjozLCJ2YWx1
+        ZSI6MSwia2luZCI6Im1ldGhvZHMifV0sInN1cGVydHlwZSI6Mn1dLCJtZXRo
+        b2RzIjpbeyJleGNlcHRpb25zIjpbXSwibG9jYWxzIjoxLCJ0cmFpdHMiOltd
+        LCJwYXJhbXMiOltdLCJjb2RlIjoiMERCSCIsInR5cGUiOjAsIm9wdGlvbmFs
+        cyI6W119LHsiZXhjZXB0aW9ucyI6W10sImxvY2FscyI6MSwidHJhaXRzIjpb
+        XSwicGFyYW1zIjpbXSwiY29kZSI6IjBEQmRCRThFQU5CZEJXQUZaZ1ltU2dV
+        Q1R3Y0JSd1x1MDAzZFx1MDAzZCIsInR5cGUiOjAsIm9wdGlvbmFscyI6W119
+        LHsiZXhjZXB0aW9ucyI6W10sImxvY2FscyI6MSwidHJhaXRzIjpbXSwicGFy
+        YW1zIjpbXSwiY29kZSI6IjBERFFTUUJkQ0NRQjBHWURUd2dDUndcdTAwM2Rc
+        dTAwM2QiLCJ0eXBlIjowLCJvcHRpb25hbHMiOltdfSx7ImV4Y2VwdGlvbnMi
+        OltdLCJsb2NhbHMiOjEsInRyYWl0cyI6W10sInBhcmFtcyI6W10sImNvZGUi
+        OiIwREJsQUdBSk1HQUtNR0FMTUdBTU1HQU5NR0FPTUdBQ01HQUNXQUFkSFIw
+        ZEhSMGRhQUZIIiwidHlwZSI6MCwib3B0aW9uYWxzIjpbXX1dLCJzY3JpcHRz
+        IjpbeyJpbml0IjozLCJ0cmFpdHMiOlt7IndyaXRhYmxlIjp0cnVlLCJuYW1l
+        IjoxLCJ2YWx1ZSI6MCwic2xvdCI6MSwia2luZCI6ImNsYXNzZXMifV19XSwi
+        bXVsdGluYW1lcyI6W3sibnMiOjEsIm5hbWUiOjIsImtpbmQiOjd9LHsibnMi
+        OjIsIm5hbWUiOjQsImtpbmQiOjd9LHsibnMiOjQsIm5hbWUiOjYsImtpbmQi
+        Ojd9LHsibnMiOjUsIm5hbWUiOjgsImtpbmQiOjd9LHsibnMiOjYsIm5hbWUi
+        OjEwLCJraW5kIjo3fSx7Im5zIjo1LCJuYW1lIjoxMSwia2luZCI6N30seyJu
+        cyI6NSwibmFtZSI6MTIsImtpbmQiOjd9LHsibnMiOjUsIm5hbWUiOjEzLCJr
+        aW5kIjo3fSx7Im5zIjo1LCJuYW1lIjoxNCwia2luZCI6N30seyJucyI6Niwi
+        bmFtZSI6MTUsImtpbmQiOjd9LHsibnMiOjIsIm5hbWUiOjE2LCJraW5kIjo3
+        fSx7Im5zIjoyLCJuYW1lIjoxNywia2luZCI6N30seyJucyI6MiwibmFtZSI6
+        MTgsImtpbmQiOjd9LHsibnMiOjIsIm5hbWUiOjE5LCJraW5kIjo3fV0sIm5h
+        bWVzcGFjZXNldHMiOltdLCJzdHJpbmdzIjpbIiIsIkV2ZW50T25seV9mbGEi
+        LCJNYWluVGltZWxpbmUiLCJmbGFzaC5kaXNwbGF5IiwiTW92aWVDbGlwIiwi
+        RXZlbnRPbmx5X2ZsYTpNYWluVGltZWxpbmUiLCJmcmFtZTIiLCIiLCJzdG9w
+        IiwiZmxhc2guZXZlbnRzIiwiRXZlbnQiLCJDT01QTEVURSIsImRpc3BhdGNo
+        RXZlbnQiLCJhZGRGcmFtZVNjcmlwdCIsIk9iamVjdCIsIkV2ZW50RGlzcGF0
+        Y2hlciIsIkRpc3BsYXlPYmplY3QiLCJJbnRlcmFjdGl2ZU9iamVjdCIsIkRp
+        c3BsYXlPYmplY3RDb250YWluZXIiLCJTcHJpdGUiXSwidHlwZSI6MTgsInVp
+        bnRzIjpbMF0sImludHMiOlswXSwibmFtZXNwYWNlcyI6W3sibmFtZSI6MSwi
+        a2luZCI6IiMwIn0seyJuYW1lIjozLCJraW5kIjoiIzAifSx7Im5hbWUiOjUs
+        ImtpbmQiOiJQUk9URUNURUQifSx7Im5hbWUiOjEsImtpbmQiOiJQQUNLQUdF
+        X0lOVEVSTkFMIn0seyJuYW1lIjo3LCJraW5kIjoiIzAifSx7Im5hbWUiOjks
+        ImtpbmQiOiIjMCJ9XX0seyJyZWZlcmVuY2VzIjpbeyJpZCI6MCwibmFtZSI6
+        IkV2ZW50T25seV9mbGEuTWFpblRpbWVsaW5lIn1dLCJ0eXBlIjoxOX0seyJ0
+        eXBlIjoyfSx7InR5cGUiOjJ9XSwiZmlsZVNpemUiOjg3NCwidiI6IjUuMi4w
+        IiwiYmFja2dyb3VuZENvbG9yIjotMSwiZnJhbWVTaXplIjp7InltaW4iOjAs
+        InltYXgiOjcyNjAsInhtaW4iOjAsInhtYXgiOjE1OTQwfSwiZnJhbWVDb3Vu
+        dCI6MiwiZnJhbWVSYXRlIjoyNCwidmVyc2lvbiI6MTV9OwogICAgPC9zY3Jp
+        cHQ+CiAgICA8c3R5bGU+aHRtbCwgYm9keSB7d2lkdGg6IDEwMCU7IGhlaWdo
+        dDogMTAwJX08L3N0eWxlPgogIDwvaGVhZD4KICA8Ym9keSBzdHlsZT0ibWFy
+        Z2luOiAwOyBvdmVyZmxvdzogaGlkZGVuIj4KICAgIDxkaXYgaWQ9InN3aWZm
+        eWNvbnRhaW5lciIgc3R5bGU9IndpZHRoOiA3OTdweDsgaGVpZ2h0OiAzNjNw
+        eCI+CiAgICA8L2Rpdj4KICAgIDxzY3JpcHQ+CiAgICAgIAogICAgICB2YXIg
+        c3RhZ2UgPSBuZXcgc3dpZmZ5LlN0YWdlKGRvY3VtZW50LmdldEVsZW1lbnRC
+        eUlkKCdzd2lmZnljb250YWluZXInKSwKICAgICAgICAgICAgICAgICAgICAg
+        ICAgICAgICAgICAgICBzd2lmZnlvYmplY3QpOwogICAgICAKICAgICAgc3Rh
+        Z2Uuc3RhcnQoKTsKICAgIDwvc2NyaXB0PgogIDwvYm9keT4KPC9odG1sPgo=
+    http_version: 
+  recorded_at: Sun, 21 Jul 2013 19:55:30 GMT
+recorded_with: VCR 2.4.0

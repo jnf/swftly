@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://www.google.com/doubleclick/studio/swiffy/upload
+    body:
+      encoding: US-ASCII
+      string: swfFile=%2FUsers%2Fjeremy%2Fprojects%2Fswftly%2Fspec%2Ffixtures%2Ffiles%2Ftest.swf
+    headers:
+      User-Agent:
+      - Curl/Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U3VuLCAyMSBKdWwgMjAxMyAyMDowNjowMyBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        R29vZ2xlIEZyb250ZW5k
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ly9PS1s3OTcsMS4wNzMyNDIxODc1LDAuODUzNTE1NjI1LDcsNiwwLDUsNCwz
+        LDM2MywwLDIsMSxbIjUiLCI5Zjk4OWM3ZS0xZDNlLTRmZjMtOTk0OS0wOWY5
+        MTRiNjVhYWEiLCIlMkZVc2VycyUyRmplcmVteSUyRnByb2plY3RzJTJGc3dm
+        dGx5JTJGc3BlYyUyRmZpeHR1cmVzJTJGZmlsZXMlMkZ0ZXN0LnN3ZiIsImh0
+        dHBzOi8vc3dpZmZ5cHJldmlld3MuZ29vZ2xldXNlcmNvbnRlbnQuY29tL3Zp
+        ZXcvaS85Zjk4OWM3ZS0xZDNlLTRmZjMtOTk0OS0wOWY5MTRiNjVhYWEvIiwi
+        ZSIsIiUyRlVzZXJzJTJGamVyZW15JTJGcHJvamVjdHMlMkZzd2Z0bHklMkZz
+        cGVjJTJGZml4dHVyZXMlMkZmaWxlcyUyRnRlc3QuaHRtbCIsImh0dHBzOi8v
+        c3dpZmZ5cHJldmlld3MuZ29vZ2xldXNlcmNvbnRlbnQuY29tL3ZpZXcvby85
+        Zjk4OWM3ZS0xZDNlLTRmZjMtOTk0OS0wOWY5MTRiNjVhYWEvIl0sMSw3XQ==
+    http_version: 
+  recorded_at: Sun, 21 Jul 2013 20:06:07 GMT
+recorded_with: VCR 2.4.0

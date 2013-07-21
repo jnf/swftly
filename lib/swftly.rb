@@ -48,7 +48,7 @@ class Swftly
   protected
 
   def failed
-    raise "File conversion failed with response code #{response_code}."
+    raise "File conversion failed with response code #{converted_response_code}."
   end
 end
 
