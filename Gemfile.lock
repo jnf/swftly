@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    swftly (0.0.1)
+    swftly (0.1.0)
+      curb (~> 0.8.4)
 
 GEM
   remote: http://rubygems.org/
@@ -27,7 +28,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  curb (~> 0.8.4)
   rspec
   swftly!
   vcr

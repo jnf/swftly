@@ -10,9 +10,11 @@ Gem::Specification.new do |spec|
   spec.files          = ["lib/swftly.rb", "lib/swftly/runtime.rb"]
   spec.homepage       = 'https://github.com/jnf/swftly'
 
-  #get some dependencies up in here up in here
-  spec.add_development_dependency "rspec" #testing whatnots
-  spec.add_development_dependency "curb", "~> 0.8.4" #we'll use curl to talk to swiffy
+  #for always
+  spec.add_dependency "curb", "~> 0.8.4" #we'll use curl to talk to swiffy
+
+  #for dev/testing
+  spec.add_development_dependency "rspec"
   spec.add_development_dependency "vcr"
   spec.add_development_dependency "webmock"
 end
