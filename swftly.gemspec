@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.email          = 'jeremy.flores@gmail.com'
   spec.files          = ["lib/swftly.rb", "lib/swftly/runtime.rb"]
   spec.homepage       = 'https://github.com/jnf/swftly'
+  spec.license        = 'MIT'
 
   #for always
   spec.add_dependency "curb", "~> 0.8.4" #we'll use curl to talk to swiffy
