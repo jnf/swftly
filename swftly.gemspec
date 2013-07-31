@@ -1,10 +1,10 @@
 Gem::Specification.new do |spec|
   spec.name           = 'swftly'
-  spec.version        = '0.1.3'
+  spec.version        = '0.1.4'
   spec.summary        = "swftly abstracts and automates interactions with Swiffy, Google's hosted swf converter."
   spec.description    = "swftly abstracts and automates interactions with Swiffy, Google's hosted swf converter."
   spec.platform       = Gem::Platform::RUBY
-  spec.require_path   = '.'
+  spec.require_paths  = %w(lib)
   spec.authors        = ["jnf"]
   spec.email          = 'jeremy.flores@gmail.com'
   spec.files          = ["lib/swftly.rb", "lib/swftly/runtime.rb"]
